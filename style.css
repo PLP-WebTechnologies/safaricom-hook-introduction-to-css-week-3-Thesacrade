@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    font-size: 1.2rem;
+    background-color: rgb(186, 222, 253);
+}
+h2{
+    font-size: 2rem;
+    padding: 0;
+}
+.navbar{
+    background-color: #0166b3;
+}
+#about__photo{
+    border: 2px solid rgb(123, 146, 252);
+    border-radius: 5%;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    margin: 2.5rem 6rem;
+    vertical-align: top;
+}
+#photo{
+    border-radius: 10%;
+}
+#about__photo{
+    margin-right: 2rem;
+}
+
+#about__description{
+    margin: auto;
+}    
+h4{
+    color: #0166b3;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    padding: 0.5rem 0;
+}
+h6{
+    color: rgb(21, 21, 21);
+    font-size: 1.2rem;
+}
+#my-description{
+    color: rgb(54, 54, 54);
+}
+#card{
+    text-align: center;
+    padding: 2rem;
+    margin: 4rem;
+    
+    box-shadow: 2px 2px 16px 3px rgb(79, 78, 78);
+}
